@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceOcrApp", "InvoiceOcrApp\InvoiceOcrApp.csproj", "{1595F42D-015F-425C-8CE0-0DDC860242C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceOcr.Models", "InvoiceOcr.Models\InvoiceOcr.Models.csproj", "{95F6395E-01FB-494B-BA06-D1DF85209EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceOcr.Services", "InvoiceOcr.Services\InvoiceOcr.Services.csproj", "{4DDD1784-7B24-41CF-84CA-60967BCB9E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceOcr.Data", "InvoiceOcr.Data\InvoiceOcr.Data.csproj", "{AEE9BEC5-F365-4CB5-8F5E-783AAE5EDA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceOcr.Repositories", "InvoiceOcr.Repositories\InvoiceOcr.Repositories.csproj", "{E32AFF22-B33B-4429-A7E5-9FEC420273A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceOcr.DTOs", "InvoiceOcr.DTOs\InvoiceOcr.DTOs.csproj", "{DE70FABC-4B0D-47FC-8402-D5A3060F8CB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1595F42D-015F-425C-8CE0-0DDC860242C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1595F42D-015F-425C-8CE0-0DDC860242C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1595F42D-015F-425C-8CE0-0DDC860242C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1595F42D-015F-425C-8CE0-0DDC860242C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F6395E-01FB-494B-BA06-D1DF85209EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F6395E-01FB-494B-BA06-D1DF85209EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F6395E-01FB-494B-BA06-D1DF85209EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F6395E-01FB-494B-BA06-D1DF85209EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDD1784-7B24-41CF-84CA-60967BCB9E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDD1784-7B24-41CF-84CA-60967BCB9E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDD1784-7B24-41CF-84CA-60967BCB9E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDD1784-7B24-41CF-84CA-60967BCB9E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE9BEC5-F365-4CB5-8F5E-783AAE5EDA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE9BEC5-F365-4CB5-8F5E-783AAE5EDA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE9BEC5-F365-4CB5-8F5E-783AAE5EDA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE9BEC5-F365-4CB5-8F5E-783AAE5EDA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E32AFF22-B33B-4429-A7E5-9FEC420273A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E32AFF22-B33B-4429-A7E5-9FEC420273A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E32AFF22-B33B-4429-A7E5-9FEC420273A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E32AFF22-B33B-4429-A7E5-9FEC420273A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE70FABC-4B0D-47FC-8402-D5A3060F8CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE70FABC-4B0D-47FC-8402-D5A3060F8CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE70FABC-4B0D-47FC-8402-D5A3060F8CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE70FABC-4B0D-47FC-8402-D5A3060F8CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
